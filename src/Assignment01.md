@@ -1,9 +1,57 @@
-1. Write a program to print Hello Students on the screen.
+1.  Write a program to print Hello Students on the screen.
 
     ```Java
     public class Assignment01_01 {
     public static void main(String []args){
         System.out.println("Hello Students");
+        }
+    }
+    ```
+
+2.  Write a program to print Hello in the first line and Students in the second line.
+    
+    ```Java
+    public class Assignment01_02 {
+        public static void main(String []args){
+            System.out.println("Hello\nStudents");
+        }
+    }
+    ```
+
+3.  Write a program to print “Namaste Java” on the screen.
+    ```Java
+    public class Assignment01_03 {
+        public static void main(String []args){
+            System.out.println("\"Namaste Java\"");
+        }
+    }
+    ```
+
+4.  Write a program to print “Happy Teacher’s Day” on the screen.
+    ```Java
+    public class Assignment01_04 {
+        public static void main(String []args){
+            System.out.println("\"Happy Teacher's Day\"");
+        }
+    }
+    ```
+
+5.  Write a program to print value of an int variable.
+    ```Java
+    public class Assignment01_05 {
+        public static void main(String[] args){
+            int n=123;
+            System.out.println(n);
+        }
+    }
+    ```
+
+6.  Write a program to print value of a float type variable.
+    ```Java
+    public class Assignment01_06 {
+        public static void main(String []args){
+            float f=124.59f;
+            System.out.println(f);
         }
     }
     ```
@@ -29,9 +77,7 @@
 
 10. What is JRE in Java?
 
-    JRE: Java Runtime Enviroment
-
-    if you want to run Java progras, but not develop them, then download & install JRE not JDK.
-
-    JRE Conatins JVM, JDK Contains JRE.
+    - JRE: Java Runtime Enviroment
+    - if you want to run Java progras, but not develop them, then download & install JRE not JDK.
+    - JRE Conatins JVM, JDK Contains JRE.
 
