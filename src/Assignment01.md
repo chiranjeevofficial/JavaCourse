@@ -1,3 +1,13 @@
+1. Write a program to print Hello Students on the screen.
+
+    ```Java
+    public class Assignment01_01 {
+    public static void main(String []args){
+        System.out.println("Hello Students");
+        }
+    }
+    ```
+
 7.  what is the difference between pascal case, snake case and camel case?
 
     Alphabet Notation - 
@@ -25,4 +35,3 @@
 
     JRE Conatins JVM, JDK Contains JRE.
 
-    
