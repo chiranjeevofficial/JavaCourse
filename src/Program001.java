@@ -56,7 +56,13 @@ public class Program001{
 //        how to initialize real value in float type variable
 //        float x=3.4f;
 
-        System.out.println(76^108);
+//        System.out.println(76^108);
+//        int x=(int)true;
+//        System.out.println(x);
+
+//        System.out.println(!(5>-2));
+
+        System.out.println(5.5%1.5);
 
     }
 }
