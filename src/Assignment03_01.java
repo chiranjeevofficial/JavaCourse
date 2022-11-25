@@ -4,6 +4,6 @@ public class Assignment03_01 {
     public static void main(String []args){
         char ch='A';
         ch=++ch;
-        System.out.println(ch);
+        System.out.println(ch); //B
     }
 }

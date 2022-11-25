@@ -7,6 +7,6 @@ public class Assignment03_09 {
         rev=(rev+(x%10))*10;
         x/=10;
         rev=rev+(x%10);
-        System.out.println(rev);
+        System.out.println(rev);    //321
     }
 }

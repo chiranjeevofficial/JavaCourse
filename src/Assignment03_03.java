@@ -4,6 +4,6 @@ public class Assignment03_03 {
     public static void main(String []args){
         int x=2345;
         x=x/10*10;
-        System.out.println(x);
+        System.out.println(x); //2340
     }
 }

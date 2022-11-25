@@ -2,6 +2,6 @@
 public class Assignment03_10 {
     public static void main(String []args){
         char ch=(char)100;
-        System.out.println("Character corresponding of 100 is: "+ch);
+        System.out.println("Character corresponding of 100 is: "+ch);   //d
     }
 }
