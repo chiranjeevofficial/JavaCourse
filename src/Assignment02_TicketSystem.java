@@ -10,14 +10,26 @@
 
 public class Assignment02_TicketSystem {
     public static void main(String []args){
-        int MaleAge=28, FemaleAge=22;
-        if(MaleAge>50)
-            System.out.println("Ticket Price for Male > 50 Age is: 10 Rupees");
+//        int MaleAge=28, FemaleAge=22;
+//        if(MaleAge>50)
+//            System.out.println("Ticket Price for Male > 50 Age is: 10 Rupees");
+//        else
+//            System.out.println("Ticket Price for Male < 50 Age is: 20 Rupees");
+//        if(FemaleAge>30)
+//            System.out.println("Ticket Price for Female > 30 Age is: 40 Rupees");
+//        else
+//            System.out.println("Ticket Price for Female < 30 Age is: 50 Rupees");
+        int Age=40;
+        char Gender='F';
+        if(Gender=='M')
+            if(Age>50)
+                System.out.println("Ticket Price is: 10 Rupees");
+            else
+                System.out.println("Ticket Price is: 20 Rupees");
         else
-            System.out.println("Ticket Price for Male < 50 Age is: 20 Rupees");
-        if(FemaleAge>30)
-            System.out.println("Ticket Price for Female > 30 Age is: 40 Rupees");
-        else
-            System.out.println("Ticket Price for Female < 30 Age is: 50 Rupees");
+            if(Age>30)
+                System.out.println("Ticket Price is: 40 Rupees");
+            else
+                System.out.println("Ticket Price is: 50 Rupees");
     }
 }
