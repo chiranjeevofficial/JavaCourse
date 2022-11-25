@@ -65,25 +65,17 @@
 
 8.  What will be the result of an expression – 47|29;
     ```Java
-        128 64 32 16 8 4 2 1
+    /*
+    	128 64 32 16 8 4 2 1
     47	  0  0  1  0 1 1 1 1
     29    0  0  0  1 1 1 0 1
     ------------------------
     63    0  0  1  1 1 1 1 1
-    
+    */
     System.out.println(47|29); //63
     ```
 
 9.  What will be the result of an expression – 76^108;
-    ```Java
-    	128 64 32 16 8 4 2 1
-     76	  0  1  0  0 1 1 0 0
-    108	  0  1  1  0 1 1 0 0
-    ------------------------
-    32	  0  0  1  0 0 0 0 0
-    
-    System.out.println(76^108); //32
-    ```
 
 10. Write a program to rotate digits of a number towards right by one position.
     ```Java

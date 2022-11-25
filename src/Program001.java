@@ -49,9 +49,14 @@ public class Program001{
 //        int x=12>3?5:0;
 //        System.out.println("x="+x);
 
-        if(12<3)
-            System.out.println("true");
-        else
-            System.out.println("false");
+//        if(12<3)
+//            System.out.println("true");
+//        else
+//            System.out.println("false");
+//        how to initialize real value in float type variable
+//        float x=3.4f;
+
+        System.out.println(76^108);
+
     }
 }
