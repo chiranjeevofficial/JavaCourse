@@ -37,8 +37,9 @@
             int x=123;
             x=x/100+x/10%10+x%10;
             System.out.println(x); //sum=6
+        }
     }
-}    ```
+     ```
 
 5. What will be the result of an expression – 5>4>3?
     - because, its not sutaible type to compare the value
