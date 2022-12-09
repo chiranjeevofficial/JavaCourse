@@ -4,7 +4,7 @@
             public static void main(String []args){
                 char ch='A';
                 ch=++ch;
-                System.out.println(ch);
+                System.out.println(ch); //B
             }
         }
     ```
@@ -13,9 +13,8 @@
     ```Java
     public class Assignment03_02 {
         public static void main(String []args){
-            char ch='+';
-            int temp=ch;
-            System.out.println("Unicode of "+ch+" is: "+temp);
+            int temp='+';
+            System.out.println("Unicode of + is: "+temp);   //43
         }
     }
     ```
@@ -26,7 +25,7 @@
         public static void main(String []args){
             int x=2345;
             x=x/10*10;
-            System.out.println(x);
+            System.out.println(x);  //2340
         }
     }
     ```
@@ -86,7 +85,7 @@
             rev=(rev+(x%10))*10;
             x/=10;
             rev=rev+(x%10);
-            System.out.println(rev);
+            System.out.println(rev);    //321
         }
     }
     ```
