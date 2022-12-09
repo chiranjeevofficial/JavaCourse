@@ -76,8 +76,8 @@
             int x=123;
             x=x%10*100+x/10%10*10+x/100;
             System.out.println(x);    //321
+        }
     }
-}
     ```
 
 10. Write a program to print the character corresponding to the unicode 100
