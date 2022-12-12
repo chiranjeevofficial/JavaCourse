@@ -34,17 +34,12 @@
     ```Java
     public class Assignment03_04 {
         public static void main(String []args){
-            int x=123, sum;
-            sum=x%10;   //sum=3
-            x/=10;      //x=12
-            sum+=x%10;  //sum=5
-            x/=10;      //x=1
-            sum+=x%10;  //sum=6
-            x/=10;      //x=0
-            System.out.println(sum); //sum=6
+            int x=123;
+            x=x/100+x/10%10+x%10;
+            System.out.println(x); //sum=6
         }
     }
-    ```
+     ```
 
 5. What will be the result of an expression – 5>4>3?
     - because, its not sutaible type to compare the value
@@ -79,13 +74,9 @@
     ```Java
     public class Assignment03_09 {
         public static void main(String []args){
-            int x=123, rev=0;
-            rev=(rev+(x%10))*10;
-            x/=10;
-            rev=(rev+(x%10))*10;
-            x/=10;
-            rev=rev+(x%10);
-            System.out.println(rev);    //321
+            int x=123;
+            x=x%10*100+x/10%10*10+x/100;
+            System.out.println(x);    //321
         }
     }
     ```
