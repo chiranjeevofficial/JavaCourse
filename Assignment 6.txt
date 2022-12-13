@@ -1,0 +1,149 @@
+Pattern 1-
+*
+**
+***
+****
+*****
+//Code
+public class MyClass{
+    public static void main(String []args){
+        // System.out.println("Namaste Java");
+        int i, j, k=2;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=5;j++){
+                System.out.print(2<=i+j&&i+j<=k?"*":"");
+            }
+            System.out.println();
+            k+=2;
+        }
+    }
+}
+---
+Pattern 2-
+    *
+   **
+  ***
+ ****
+*****
+//Code
+public class MyClass{
+    public static void main(String []args){
+        // System.out.println("Namaste Java");
+        int i, j, k=6;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=5;j++){
+                System.out.print(6<=i+j&&i+j<=k?"*":" ");
+            }
+            System.out.println();
+            k++;
+        }
+    }
+}
+---
+Pattern 3-
+*****
+****
+***
+**
+*
+//Code
+public class MyClass{
+    public static void main(String []args){
+        // System.out.println("Namaste Java");
+        int i, j;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=5;j++){
+                System.out.print(i+j<=6?"*":"");
+            }
+            System.out.println();
+        }
+    }
+}
+---
+Pattern 4-
+*****
+ ****
+  ***
+   **
+    *
+//Code
+public class MyClass{
+    public static void main(String []args){
+        // System.out.println("Namaste Java");
+        int i, j, k=2;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=5;j++){
+                System.out.print(k<=i+j?"*":" ");
+            }
+            System.out.println();
+            k+=2;
+        }
+    }
+}
+---
+Pattern 5-
+1
+12
+123
+1234
+12345
+//Code
+public class MyClass{
+    public static void main(String []args){
+        // System.out.println("Namaste Java");
+        int i, j;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=5;j++){
+                System.out.print(j<=i?j:"");
+            }
+            System.out.println();
+        }
+    }
+}
+---
+Pattern 6-
+1
+21
+321
+4321
+54321
+//Code
+public class MyClass{
+    public static void main(String []args){
+        // System.out.println("Namaste Java");
+        int i, j;
+        for(i=1;i<=5;i++){
+            for(j=1;j<=5;j++){
+                System.out.print(i>=j?i-j+1:"");
+            }
+            System.out.println();
+        }
+    }
+}
+---
+Pattern 7-
+ABCDE
+ ABCD
+  ABC
+   AB
+    A
+//Code
+public class MyClass{
+    public static void main(String []args){
+        // System.out.println("Namaste Java");
+        char i, j, k=0;
+        for(i='A';i<='E';i++){
+            for(j='A';j<='E';j++){
+                System.out.print(i<=j?(char)(j-k):" ");
+            }
+            System.out.println();
+            k++;            
+        }
+    }
+}
+---
+Pattern 8-
+1
+23
+456
+78910
