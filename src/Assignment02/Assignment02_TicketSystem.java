@@ -8,6 +8,7 @@
 // female>30 age - @40
 // female<30 age - @50
 
+package Assignment02;
 public class Assignment02_TicketSystem {
     public static void main(String []args){
 //        int MaleAge=28, FemaleAge=22;

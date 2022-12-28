@@ -1,4 +1,5 @@
 //10. Write a program to rotate digits of a number towards right by one position.
+package Assignment02;
 public class Assignment02_10 {
     public static void main(String []args){
         int x=123, y;

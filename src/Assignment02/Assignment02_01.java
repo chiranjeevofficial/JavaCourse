@@ -1,4 +1,5 @@
 //1. Write a program to find and print unit digit of a number stored in a variable.
+package Assignment02;
 public class Assignment02_01 {
     public static void main(String []args){
         int x=123, y;

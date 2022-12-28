@@ -1,4 +1,5 @@
 //2. Write a program to print a number stored in a variable without its last digit.
+package Assignment02;
 public class Assignment02_02 {
     public static void main(String []args){
         int x=123, y;

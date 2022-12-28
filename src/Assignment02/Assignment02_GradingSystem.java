@@ -10,6 +10,7 @@
         Write a Java program to calculate grade for the
         given marks obtained in exam by a candidate.
 */
+package Assignment02;
 public class Assignment02_GradingSystem {
     public static void main(String []args){
         int marks=60;
