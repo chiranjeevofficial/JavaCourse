@@ -1,4 +1,5 @@
 //5. Write a program to print greater between two numbers.
+package Assignment04;
 public class Assignment04_05 {
     public static void main(String []args){
         int a=20, b=55;

@@ -1,4 +1,5 @@
 //1. Write a program to check whether a given number is divisible by 5 or not?
+package Assignment04;
 public class Assignment04_01 {
     public static void main(String []args){
         int x=20;

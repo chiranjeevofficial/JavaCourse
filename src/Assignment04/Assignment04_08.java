@@ -1,4 +1,5 @@
 //8. Write a program to check whether a character is an alphabet, a digit or some other character.
+package Assignment04;
 public class Assignment04_08 {
     public static void main(String []args){
         char c='+';

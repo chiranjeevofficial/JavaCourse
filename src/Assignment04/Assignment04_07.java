@@ -1,4 +1,5 @@
 //7. Write a program to print greater among three numbers.
+package Assignment04;
 public class Assignment04_07 {
     public static void main(String []args){
         int a=41, b=2, c=9;

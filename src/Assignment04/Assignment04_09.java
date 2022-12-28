@@ -1,4 +1,5 @@
 //9. Write a program to check whether a given number is a three digits number or not.
+package Assignment04;
 public class Assignment04_09 {
     public static void main(String []args){
         int x=13;
