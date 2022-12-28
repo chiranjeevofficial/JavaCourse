@@ -4,6 +4,7 @@
 //      321
 //      4321
 //      54321
+package Assignment_06;
 public class Assignment06_06 {
     public static void main(String []args){
         int i, j;

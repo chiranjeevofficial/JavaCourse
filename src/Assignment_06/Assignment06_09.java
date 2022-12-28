@@ -4,6 +4,7 @@
 //      CDE
 //      DE
 //      E
+package Assignment_06;
 public class Assignment06_09 {
     public static void main(String []args){
         char i, j;

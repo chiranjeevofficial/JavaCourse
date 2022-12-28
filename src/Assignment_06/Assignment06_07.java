@@ -4,6 +4,7 @@
 //        ABC
 //         AB
 //          A
+package Assignment_06;
 public class Assignment06_07 {
     public static void main(String []args){
         char i, j, k=0;
