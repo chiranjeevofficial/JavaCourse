@@ -2,6 +2,7 @@
 //   This car is specially designed and guaranteed to the only available supercar of its kind in the world.
 //   Make sure only one instance can be created of the SuperCar. Create instance variables like ownerName,
 //   price, colour, brand. Provide appropriate setters and getters.
+package Assignment_08;
 class SuperCar{
     
 }

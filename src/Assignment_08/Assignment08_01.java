@@ -9,6 +9,7 @@
 //        f. Get account number
 //        g. Get balance
 //        h. Get customer name
+package Assignment_08;
 class Account{
     int accountNumber;
     String customerName;
