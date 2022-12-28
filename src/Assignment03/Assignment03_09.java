@@ -1,4 +1,5 @@
 //9. Write a program to reverse a three-digit number.
+package Assignment03;
 public class Assignment03_09 {
     public static void main(String []args){
         int x=123;

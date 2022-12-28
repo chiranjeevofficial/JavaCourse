@@ -1,4 +1,5 @@
 //4. Write a program to calculate sum of the digits of a given number.
+package Assignment03;
 public class Assignment03_04 {
     public static void main(String []args){
         int x=123;
