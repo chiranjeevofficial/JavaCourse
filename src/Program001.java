@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Program001{
     public static void main(String []args){
 //        int a=2, b=3, c;
@@ -61,8 +59,7 @@ public class Program001{
 //        System.out.println(x);
 
 //        System.out.println(!(5>-2));
-
-        System.out.println(5.5%1.5);
-
+        for(int i=0;i< args.length;i++)
+            System.out.println("Argument-"+(i+1)+": "+args[i]);
     }
 }
