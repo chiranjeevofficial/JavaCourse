@@ -1,5 +1,6 @@
 //6.	Define a class Question with fields queNo, que, optionA, optionB, optionC, optionD, answer.
 //      Provide methods to set question and display question.
+package Assignment_07;
 class Question{
     int queNo;
     String que, optA, optB, optC, optD, ans;

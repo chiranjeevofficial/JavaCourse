@@ -1,6 +1,7 @@
 //2.	Define a class Time to represent Time (like 3HR 45MIN 20SEC). Declare ap-propriate number of
 //      instance member variables and also define instance member function to set values for
 //      time and display values of time.
+package Assignment_07;
 class Time{
     int hour, min, sec;
     void SetTime(int Hour, int Minute, int Second){

@@ -1,5 +1,6 @@
 //3.	Define a class Cuboid with member variables to store length of its sides. Al-so define setters,
 //      getters and member functions to calculate volume and surface area of cuboid.
+package Assignment_07;
 class Cuboid{
     int l, w, h;
     void setters(int Length, int Width, int Height){

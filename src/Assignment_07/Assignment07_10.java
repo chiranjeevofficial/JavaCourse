@@ -1,4 +1,5 @@
 //10.	Define a class Book with member variables bookId, title, price and author. Provide setters and getters.
+package Assignment_07;
 class Book{
     int bookID;
     float price;

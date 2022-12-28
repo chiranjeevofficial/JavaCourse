@@ -1,6 +1,7 @@
 //1.	Define a class Complex to represent a complex number. Declare instance member variables to store real and
 //      imaginary part of a complex number, also define instance member functions to set values of complex number
 //      and print values of complex number.
+package Assignment_07;
 class Complex{
     int real, img;
     void setData(int x, int y){

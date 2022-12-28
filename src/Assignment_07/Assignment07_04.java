@@ -1,4 +1,5 @@
 //4.	Define a class Employee with properties empid, name, salary and define setters and getters.
+package Assignment_07;
 class Employee{
     int empid;
     float salary;

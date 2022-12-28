@@ -1,7 +1,6 @@
-import javax.print.attribute.standard.DialogTypeSelection;
-
 //8.	Define a class Distance with fields km, m, cm. Provide methods to set distance and display distance.
 //      Also define a member function to add two distances.
+package Assignment_07;
 class Distance{
     float km, m, cm;
     void setDistance(float KiloMeter, float Meter, float CentiMeter){

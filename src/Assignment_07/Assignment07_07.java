@@ -1,4 +1,5 @@
 //7.	Define a class Course with fields courseId, courseName, duration, fee. Pro-vide setters and getters.
+package Assignment_07;
 class Course{
     int courseId, duration;
     float fees;

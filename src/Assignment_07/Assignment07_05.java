@@ -1,4 +1,5 @@
 //5. Define a class Contact with fields id, firstName, lastName, mobileNo and emailId. Provide setters and getters.
+package Assignment_07;
 class Contact{
     int id;
     String firstName, lastName, emailId;
