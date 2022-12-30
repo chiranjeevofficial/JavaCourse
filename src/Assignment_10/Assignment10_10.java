@@ -1,6 +1,6 @@
 // 10.	Write a Java program to calculate HCF of two numbers. Numbers are pro-vided through command line.
 package Assignment_10;
-public class Program10 {
+public class Assignment10_10 {
     public static void main(String[] args) {
         int a=Integer.parseInt(args[0]), b=Integer.parseInt(args[1]), i;
         for(i=a<b?a:b;i>=1;i--)

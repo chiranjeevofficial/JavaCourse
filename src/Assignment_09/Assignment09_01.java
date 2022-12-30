@@ -15,7 +15,7 @@ class Circle{
         return (float)(2*3.14*radius);
     }
 }
-public class Program01{
+public class Assignment09_01{
     public static void main(String[] args) {
         Circle c=new Circle();
         c.setRadius(12);

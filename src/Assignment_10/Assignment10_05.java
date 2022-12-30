@@ -1,6 +1,6 @@
 // 5.	Write a Java program to check whether a given number is Prime number or not. Number is given through command line.
 package Assignment_10;
-public class Program05 {
+public class Assignment10_05 {
     public static void main(String[] args) {
         int n=Integer.parseInt(args[0]), i;
         if(n<1)

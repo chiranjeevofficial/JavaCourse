@@ -1,6 +1,6 @@
 // 9.	Write a Java program to find the greatest number among all the numbers provided through command line.
 package Assignment_10;
-public class Program09 {
+public class Assignment10_09 {
     public static void main(String[] args) {
         int i, great=0;
         for(i=0;i<args.length;i++){

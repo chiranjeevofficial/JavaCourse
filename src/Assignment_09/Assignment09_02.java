@@ -44,7 +44,7 @@ class Marksheet{
         return "Fail";
     }
 }
-public class Program02 {
+public class Assignment09_02 {
     public static void main(String[] args) {
         Marksheet m=new Marksheet();
         m.setters(56f, 73f, 33f, 66f, 55f);
