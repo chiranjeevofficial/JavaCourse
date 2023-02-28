@@ -3,8 +3,9 @@
 package Assignment_07;
 class Question{
     int queNo;
-    String que, optA, optB, optC, optD, ans;
-    void SetQuestion(int QuestionNo, String Question, String OptionA, String OptionB, String OptionC, String OptionD, String Answer){
+    String que, optA, optB, optC, optD;
+    char ans;
+    void SetQuestion(int QuestionNo, String Question, String OptionA, String OptionB, String OptionC, String OptionD, char Answer){
         queNo=QuestionNo;
         que=Question;
         optA=OptionA;
@@ -25,7 +26,7 @@ class Question{
 public class Assignment07_06 {
     public static void main(String []args){
         Question q1=new Question();
-        q1.SetQuestion(1,"Which company does Java belong to?","Sun Micro","Google","Amazon","Oracle","Oracle");
+        q1.SetQuestion(1,"Which company does Java belong to?","Sun Micro","Google","Amazon","Oracle",'D');
         q1.displayQuestion();
     }
 }

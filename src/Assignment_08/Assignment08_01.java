@@ -14,7 +14,7 @@ class Account{
     int accountNumber;
     String customerName;
     float balance;
-    static float rateOfInt;
+    static double rateOfInt;
     void setAccountNumber(int AccountNumber){
         accountNumber=AccountNumber;
     }
@@ -24,7 +24,7 @@ class Account{
     void setBalance(float Balance){
         balance=Balance;
     }
-    static void setRateOfInt(float rateOfInterest){
+    public static void setRateOfInt(double rateOfInterest){
         rateOfInt=rateOfInterest;
     }
     int getAccountNumber(){
@@ -46,7 +46,7 @@ public class Assignment08_01 {
         System.out.println(A.getCustomerName()+": "+"Account Details");
         System.out.println("Account Number  : "+A.getAccountNumber());
         System.out.println("Account Balance : "+A.getBalance());
-        Account.setRateOfInt(2.45f);
+        Account.setRateOfInt(2.45);
         System.out.println("rate of Interest: "+Account.rateOfInt);
     }
 }
